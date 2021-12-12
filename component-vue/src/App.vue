@@ -1,19 +1,15 @@
 <template>
   <div id="app">
-    <ClickOutSide></ClickOutSide>
+    <VueLazyLoad></VueLazyLoad>
   </div>
 </template>
-
 <script>
-import ClickOutSide from '@/components/click-outside'
-export default {
-  components: {
-    ClickOutSide
+import VueLazyLoad from '@/components/vue-lazyload'
+export default({
+  comments: {
+    VueLazyLoad
   }
- 
-}
+})
 </script>
-
 <style>
-
 </style>
