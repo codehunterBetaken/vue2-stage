@@ -6,7 +6,7 @@
 <script>
 import VueLazyLoad from '@/components/vue-lazyload'
 export default({
-  comments: {
+  components: {
     VueLazyLoad
   }
 })
